@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C0811791F14CC8B0060651C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0811781F14CC8B0060651C /* main.m */; };
+		6C08117C1F14CC8B0060651C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C08117B1F14CC8B0060651C /* AppDelegate.m */; };
+		6C08117F1F14CC8B0060651C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C08117E1F14CC8B0060651C /* ViewController.m */; };
+		6C0811821F14CC8B0060651C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C0811801F14CC8B0060651C /* Main.storyboard */; };
+		6C0811841F14CC8B0060651C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C0811831F14CC8B0060651C /* Assets.xcassets */; };
+		6C0811871F14CC8B0060651C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C0811851F14CC8B0060651C /* LaunchScreen.storyboard */; };
+		6C0811A81F14CD830060651C /* hello.zip in Resources */ = {isa = PBXBuildFile; fileRef = 6C0811971F14CD830060651C /* hello.zip */; };
+		6C0811A91F14CD830060651C /* IncorrectHeaders.zip in Resources */ = {isa = PBXBuildFile; fileRef = 6C0811981F14CD830060651C /* IncorrectHeaders.zip */; };
+		6C0811AA1F14CD830060651C /* PermissionsTestApp.app in Resources */ = {isa = PBXBuildFile; fileRef = 6C0811991F14CD830060651C /* PermissionsTestApp.app */; };
+		6C0811AB1F14CD830060651C /* RelativeSymbolicLink.zip in Resources */ = {isa = PBXBuildFile; fileRef = 6C08119A1F14CD830060651C /* RelativeSymbolicLink.zip */; };
+		6C0811AC1F14CD830060651C /* SymbolicLink.zip in Resources */ = {isa = PBXBuildFile; fileRef = 6C08119B1F14CD830060651C /* SymbolicLink.zip */; };
+		6C0811AD1F14CD830060651C /* TestArchive.zip in Resources */ = {isa = PBXBuildFile; fileRef = 6C08119C1F14CD830060651C /* TestArchive.zip */; };
+		6C0811AE1F14CD830060651C /* TestPasswordArchive.zip in Resources */ = {isa = PBXBuildFile; fileRef = 6C08119D1F14CD830060651C /* TestPasswordArchive.zip */; };
+		6C0811AF1F14CD830060651C /* Unicode.zip in Resources */ = {isa = PBXBuildFile; fileRef = 6C08119E1F14CD830060651C /* Unicode.zip */; };
+		6C08129B1F15E35A0060651C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C08129A1F15E35A0060651C /* Foundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		6C0812A71F1604C00060651C /* Multi_Zip_Test in Resources */ = {isa = PBXBuildFile; fileRef = 6C0812A61F1604C00060651C /* Multi_Zip_Test */; };
+		6C996E9A1F17557000E6D06E /* Zip_aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C996E7A1F17557000E6D06E /* Zip_aescrypt.c */; };
+		6C996E9B1F17557000E6D06E /* Zip_aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C996E7B1F17557000E6D06E /* Zip_aeskey.c */; };
+		6C996E9C1F17557000E6D06E /* Zip_aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C996E7D1F17557000E6D06E /* Zip_aestab.c */; };
+		6C996E9D1F17557000E6D06E /* Zip_entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C996E811F17557000E6D06E /* Zip_entropy.c */; };
+		6C996E9E1F17557000E6D06E /* Zip_fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C996E831F17557000E6D06E /* Zip_fileenc.c */; };
+		6C996E9F1F17557000E6D06E /* Zip_hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C996E851F17557000E6D06E /* Zip_hmac.c */; };
+		6C996EA01F17557000E6D06E /* Zip_prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C996E871F17557000E6D06E /* Zip_prng.c */; };
+		6C996EA11F17557000E6D06E /* Zip_pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C996E891F17557000E6D06E /* Zip_pwd2key.c */; };
+		6C996EA21F17557000E6D06E /* Zip_sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C996E8B1F17557000E6D06E /* Zip_sha1.c */; };
+		6C996EA31F17557000E6D06E /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C996E8E1F17557000E6D06E /* unzip.c */; };
+		6C996EA41F17557000E6D06E /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C996E901F17557000E6D06E /* zip.c */; };
+		6C996EA51F17557000E6D06E /* Zip_ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C996E931F17557000E6D06E /* Zip_ioapi.c */; };
+		6C996EA61F17557000E6D06E /* Zip_mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C996E951F17557000E6D06E /* Zip_mztools.c */; };
+		6C996EA71F17557000E6D06E /* ZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C996E991F17557000E6D06E /* ZipArchive.m */; };
+		6CB425B51F1747BC009B9362 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB425B41F1747BC009B9362 /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C0811741F14CC8B0060651C /* RXZipArchive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXZipArchive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C0811781F14CC8B0060651C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C08117A1F14CC8B0060651C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C08117B1F14CC8B0060651C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C08117D1F14CC8B0060651C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6C08117E1F14CC8B0060651C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6C0811811F14CC8B0060651C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C0811831F14CC8B0060651C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C0811861F14CC8B0060651C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C0811881F14CC8B0060651C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C0811971F14CD830060651C /* hello.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = hello.zip; sourceTree = "<group>"; };
+		6C0811981F14CD830060651C /* IncorrectHeaders.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = IncorrectHeaders.zip; sourceTree = "<group>"; };
+		6C0811991F14CD830060651C /* PermissionsTestApp.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = PermissionsTestApp.app; sourceTree = "<group>"; };
+		6C08119A1F14CD830060651C /* RelativeSymbolicLink.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = RelativeSymbolicLink.zip; sourceTree = "<group>"; };
+		6C08119B1F14CD830060651C /* SymbolicLink.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = SymbolicLink.zip; sourceTree = "<group>"; };
+		6C08119C1F14CD830060651C /* TestArchive.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = TestArchive.zip; sourceTree = "<group>"; };
+		6C08119D1F14CD830060651C /* TestPasswordArchive.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = TestPasswordArchive.zip; sourceTree = "<group>"; };
+		6C08119E1F14CD830060651C /* Unicode.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Unicode.zip; sourceTree = "<group>"; };
+		6C08129A1F15E35A0060651C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C08129D1F15E9290060651C /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6C0812A61F1604C00060651C /* Multi_Zip_Test */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Multi_Zip_Test; sourceTree = "<group>"; };
+		6C996E781F17557000E6D06E /* Zip_aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zip_aes.h; sourceTree = "<group>"; };
+		6C996E791F17557000E6D06E /* Zip_aes_via_ace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zip_aes_via_ace.h; sourceTree = "<group>"; };
+		6C996E7A1F17557000E6D06E /* Zip_aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Zip_aescrypt.c; sourceTree = "<group>"; };
+		6C996E7B1F17557000E6D06E /* Zip_aeskey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Zip_aeskey.c; sourceTree = "<group>"; };
+		6C996E7C1F17557000E6D06E /* Zip_aesopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zip_aesopt.h; sourceTree = "<group>"; };
+		6C996E7D1F17557000E6D06E /* Zip_aestab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Zip_aestab.c; sourceTree = "<group>"; };
+		6C996E7E1F17557000E6D06E /* Zip_aestab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zip_aestab.h; sourceTree = "<group>"; };
+		6C996E7F1F17557000E6D06E /* Zip_brg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zip_brg_endian.h; sourceTree = "<group>"; };
+		6C996E801F17557000E6D06E /* Zip_brg_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zip_brg_types.h; sourceTree = "<group>"; };
+		6C996E811F17557000E6D06E /* Zip_entropy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Zip_entropy.c; sourceTree = "<group>"; };
+		6C996E821F17557000E6D06E /* Zip_entropy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zip_entropy.h; sourceTree = "<group>"; };
+		6C996E831F17557000E6D06E /* Zip_fileenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Zip_fileenc.c; sourceTree = "<group>"; };
+		6C996E841F17557000E6D06E /* Zip_fileenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zip_fileenc.h; sourceTree = "<group>"; };
+		6C996E851F17557000E6D06E /* Zip_hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Zip_hmac.c; sourceTree = "<group>"; };
+		6C996E861F17557000E6D06E /* Zip_hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zip_hmac.h; sourceTree = "<group>"; };
+		6C996E871F17557000E6D06E /* Zip_prng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Zip_prng.c; sourceTree = "<group>"; };
+		6C996E881F17557000E6D06E /* Zip_prng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zip_prng.h; sourceTree = "<group>"; };
+		6C996E891F17557000E6D06E /* Zip_pwd2key.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Zip_pwd2key.c; sourceTree = "<group>"; };
+		6C996E8A1F17557000E6D06E /* Zip_pwd2key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zip_pwd2key.h; sourceTree = "<group>"; };
+		6C996E8B1F17557000E6D06E /* Zip_sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Zip_sha1.c; sourceTree = "<group>"; };
+		6C996E8C1F17557000E6D06E /* Zip_sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zip_sha1.h; sourceTree = "<group>"; };
+		6C996E8E1F17557000E6D06E /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		6C996E8F1F17557000E6D06E /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		6C996E901F17557000E6D06E /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		6C996E911F17557000E6D06E /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		6C996E921F17557000E6D06E /* Zip_crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zip_crypt.h; sourceTree = "<group>"; };
+		6C996E931F17557000E6D06E /* Zip_ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Zip_ioapi.c; sourceTree = "<group>"; };
+		6C996E941F17557000E6D06E /* Zip_ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zip_ioapi.h; sourceTree = "<group>"; };
+		6C996E951F17557000E6D06E /* Zip_mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Zip_mztools.c; sourceTree = "<group>"; };
+		6C996E961F17557000E6D06E /* Zip_mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zip_mztools.h; sourceTree = "<group>"; };
+		6C996E971F17557000E6D06E /* SSZipCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipCommon.h; sourceTree = "<group>"; };
+		6C996E981F17557000E6D06E /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		6C996E991F17557000E6D06E /* ZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipArchive.m; sourceTree = "<group>"; };
+		6CB425B41F1747BC009B9362 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C0811711F14CC8B0060651C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB425B51F1747BC009B9362 /* libz.tbd in Frameworks */,
+				6C08129B1F15E35A0060651C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C08116B1F14CC8B0060651C = {
+			isa = PBXGroup;
+			children = (
+				6C0811921F14CCF70060651C /* Frameworks */,
+				6C0811761F14CC8B0060651C /* RXZipArchive */,
+				6C0811751F14CC8B0060651C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C0811751F14CC8B0060651C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C0811741F14CC8B0060651C /* RXZipArchive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C0811761F14CC8B0060651C /* RXZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				6C996E761F17557000E6D06E /* ZipArchive */,
+				6C0811951F14CD830060651C /* file */,
+				6C08117A1F14CC8B0060651C /* AppDelegate.h */,
+				6C08117B1F14CC8B0060651C /* AppDelegate.m */,
+				6C08117D1F14CC8B0060651C /* ViewController.h */,
+				6C08117E1F14CC8B0060651C /* ViewController.m */,
+				6C08129D1F15E9290060651C /* PrefixHeader.pch */,
+				6C0811801F14CC8B0060651C /* Main.storyboard */,
+				6C0811831F14CC8B0060651C /* Assets.xcassets */,
+				6C0811851F14CC8B0060651C /* LaunchScreen.storyboard */,
+				6C0811881F14CC8B0060651C /* Info.plist */,
+				6C0811771F14CC8B0060651C /* Supporting Files */,
+			);
+			path = RXZipArchive;
+			sourceTree = "<group>";
+		};
+		6C0811771F14CC8B0060651C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C0811781F14CC8B0060651C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C0811921F14CCF70060651C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CB425B41F1747BC009B9362 /* libz.tbd */,
+				6C08129A1F15E35A0060651C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C0811951F14CD830060651C /* file */ = {
+			isa = PBXGroup;
+			children = (
+				6C0812A61F1604C00060651C /* Multi_Zip_Test */,
+				6C0811961F14CD830060651C /* Fixtures */,
+			);
+			path = file;
+			sourceTree = "<group>";
+		};
+		6C0811961F14CD830060651C /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				6C0811971F14CD830060651C /* hello.zip */,
+				6C0811981F14CD830060651C /* IncorrectHeaders.zip */,
+				6C0811991F14CD830060651C /* PermissionsTestApp.app */,
+				6C08119A1F14CD830060651C /* RelativeSymbolicLink.zip */,
+				6C08119B1F14CD830060651C /* SymbolicLink.zip */,
+				6C08119C1F14CD830060651C /* TestArchive.zip */,
+				6C08119D1F14CD830060651C /* TestPasswordArchive.zip */,
+				6C08119E1F14CD830060651C /* Unicode.zip */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		6C996E761F17557000E6D06E /* ZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				6C996E771F17557000E6D06E /* aes */,
+				6C996E8D1F17557000E6D06E /* minizip */,
+				6C996E971F17557000E6D06E /* SSZipCommon.h */,
+				6C996E981F17557000E6D06E /* ZipArchive.h */,
+				6C996E991F17557000E6D06E /* ZipArchive.m */,
+			);
+			path = ZipArchive;
+			sourceTree = "<group>";
+		};
+		6C996E771F17557000E6D06E /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				6C996E781F17557000E6D06E /* Zip_aes.h */,
+				6C996E791F17557000E6D06E /* Zip_aes_via_ace.h */,
+				6C996E7A1F17557000E6D06E /* Zip_aescrypt.c */,
+				6C996E7B1F17557000E6D06E /* Zip_aeskey.c */,
+				6C996E7C1F17557000E6D06E /* Zip_aesopt.h */,
+				6C996E7D1F17557000E6D06E /* Zip_aestab.c */,
+				6C996E7E1F17557000E6D06E /* Zip_aestab.h */,
+				6C996E7F1F17557000E6D06E /* Zip_brg_endian.h */,
+				6C996E801F17557000E6D06E /* Zip_brg_types.h */,
+				6C996E811F17557000E6D06E /* Zip_entropy.c */,
+				6C996E821F17557000E6D06E /* Zip_entropy.h */,
+				6C996E831F17557000E6D06E /* Zip_fileenc.c */,
+				6C996E841F17557000E6D06E /* Zip_fileenc.h */,
+				6C996E851F17557000E6D06E /* Zip_hmac.c */,
+				6C996E861F17557000E6D06E /* Zip_hmac.h */,
+				6C996E871F17557000E6D06E /* Zip_prng.c */,
+				6C996E881F17557000E6D06E /* Zip_prng.h */,
+				6C996E891F17557000E6D06E /* Zip_pwd2key.c */,
+				6C996E8A1F17557000E6D06E /* Zip_pwd2key.h */,
+				6C996E8B1F17557000E6D06E /* Zip_sha1.c */,
+				6C996E8C1F17557000E6D06E /* Zip_sha1.h */,
+			);
+			path = aes;
+			sourceTree = "<group>";
+		};
+		6C996E8D1F17557000E6D06E /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				6C996E8E1F17557000E6D06E /* unzip.c */,
+				6C996E8F1F17557000E6D06E /* unzip.h */,
+				6C996E901F17557000E6D06E /* zip.c */,
+				6C996E911F17557000E6D06E /* zip.h */,
+				6C996E921F17557000E6D06E /* Zip_crypt.h */,
+				6C996E931F17557000E6D06E /* Zip_ioapi.c */,
+				6C996E941F17557000E6D06E /* Zip_ioapi.h */,
+				6C996E951F17557000E6D06E /* Zip_mztools.c */,
+				6C996E961F17557000E6D06E /* Zip_mztools.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C0811731F14CC8B0060651C /* RXZipArchive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C08118B1F14CC8B0060651C /* Build configuration list for PBXNativeTarget "RXZipArchive" */;
+			buildPhases = (
+				6C0811701F14CC8B0060651C /* Sources */,
+				6C0811711F14CC8B0060651C /* Frameworks */,
+				6C0811721F14CC8B0060651C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RXZipArchive;
+			productName = RXZipArchive;
+			productReference = 6C0811741F14CC8B0060651C /* RXZipArchive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C08116C1F14CC8B0060651C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "https://github.com/srxboys";
+				TargetAttributes = {
+					6C0811731F14CC8B0060651C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PV5ANGHDB3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6C08116F1F14CC8B0060651C /* Build configuration list for PBXProject "RXZipArchive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C08116B1F14CC8B0060651C;
+			productRefGroup = 6C0811751F14CC8B0060651C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C0811731F14CC8B0060651C /* RXZipArchive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C0811721F14CC8B0060651C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0811AB1F14CD830060651C /* RelativeSymbolicLink.zip in Resources */,
+				6C0811AC1F14CD830060651C /* SymbolicLink.zip in Resources */,
+				6C0811AD1F14CD830060651C /* TestArchive.zip in Resources */,
+				6C0811871F14CC8B0060651C /* LaunchScreen.storyboard in Resources */,
+				6C0811841F14CC8B0060651C /* Assets.xcassets in Resources */,
+				6C0811AE1F14CD830060651C /* TestPasswordArchive.zip in Resources */,
+				6C0812A71F1604C00060651C /* Multi_Zip_Test in Resources */,
+				6C0811AA1F14CD830060651C /* PermissionsTestApp.app in Resources */,
+				6C0811A81F14CD830060651C /* hello.zip in Resources */,
+				6C0811AF1F14CD830060651C /* Unicode.zip in Resources */,
+				6C0811821F14CC8B0060651C /* Main.storyboard in Resources */,
+				6C0811A91F14CD830060651C /* IncorrectHeaders.zip in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C0811701F14CC8B0060651C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C996EA01F17557000E6D06E /* Zip_prng.c in Sources */,
+				6C996E9D1F17557000E6D06E /* Zip_entropy.c in Sources */,
+				6C996E9A1F17557000E6D06E /* Zip_aescrypt.c in Sources */,
+				6C08117F1F14CC8B0060651C /* ViewController.m in Sources */,
+				6C996EA31F17557000E6D06E /* unzip.c in Sources */,
+				6C996EA71F17557000E6D06E /* ZipArchive.m in Sources */,
+				6C996EA51F17557000E6D06E /* Zip_ioapi.c in Sources */,
+				6C08117C1F14CC8B0060651C /* AppDelegate.m in Sources */,
+				6C996E9C1F17557000E6D06E /* Zip_aestab.c in Sources */,
+				6C996EA61F17557000E6D06E /* Zip_mztools.c in Sources */,
+				6C996E9B1F17557000E6D06E /* Zip_aeskey.c in Sources */,
+				6C996E9E1F17557000E6D06E /* Zip_fileenc.c in Sources */,
+				6C996EA11F17557000E6D06E /* Zip_pwd2key.c in Sources */,
+				6C996E9F1F17557000E6D06E /* Zip_hmac.c in Sources */,
+				6C996EA41F17557000E6D06E /* zip.c in Sources */,
+				6C996EA21F17557000E6D06E /* Zip_sha1.c in Sources */,
+				6C0811791F14CC8B0060651C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C0811801F14CC8B0060651C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C0811811F14CC8B0060651C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C0811851F14CC8B0060651C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C0811861F14CC8B0060651C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C0811891F14CC8B0060651C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C08118A1F14CC8B0060651C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C08118C1F14CC8B0060651C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PV5ANGHDB3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RXZipArchive/RXZipArchive",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RXZipArchive/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = RXZipArchive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-Objc";
+				PRODUCT_BUNDLE_IDENTIFIER = net.ghs.app.RXZipArchive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6C08118D1F14CC8B0060651C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PV5ANGHDB3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RXZipArchive/RXZipArchive",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RXZipArchive/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = RXZipArchive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-Objc";
+				PRODUCT_BUNDLE_IDENTIFIER = net.ghs.app.RXZipArchive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C08116F1F14CC8B0060651C /* Build configuration list for PBXProject "RXZipArchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C0811891F14CC8B0060651C /* Debug */,
+				6C08118A1F14CC8B0060651C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C08118B1F14CC8B0060651C /* Build configuration list for PBXNativeTarget "RXZipArchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C08118C1F14CC8B0060651C /* Debug */,
+				6C08118D1F14CC8B0060651C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C08116C1F14CC8B0060651C /* Project object */;
+}
