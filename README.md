@@ -5,3 +5,16 @@
 
 <br>
 等有时间我在，好好写UI 展示一下
+
+
+
+## 内部有隐藏功能
+//内部有 7zZip zip RAR 的解压和压缩SDK源码
+封装较好的 -> https://github.com/saru2020/SARUnArchiveANY
+
+## 开源库
+7zZip -> https://github.com/mdejong/lzmaSDK
+zip -> https://github.com/ZipArchive/ZipArchive
+RAR -> https://github.com/ararog/Unrar4iOS
+
+如果你感兴趣，也去封装一下吧！！ 最好不用扩展名去解压缩，而是用二进制头文件去判断
