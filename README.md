@@ -13,8 +13,8 @@
 封装较好的 -> https://github.com/saru2020/SARUnArchiveANY
 
 ## 开源库
-7zZip -> https://github.com/mdejong/lzmaSDK
-zip -> https://github.com/ZipArchive/ZipArchive
-RAR -> https://github.com/ararog/Unrar4iOS
+7zZip -> https://github.com/mdejong/lzmaSDK <br>
+zip -> https://github.com/ZipArchive/ZipArchive <br>
+RAR -> https://github.com/ararog/Unrar4iOS <br>
 
 如果你感兴趣，也去封装一下吧！！ 最好不用扩展名去解压缩，而是用二进制头文件去判断
