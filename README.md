@@ -17,4 +17,4 @@
 zip -> https://github.com/ZipArchive/ZipArchive <br>
 RAR -> https://github.com/ararog/Unrar4iOS <br>
 
-如果你感兴趣，也去封装一下吧！！ 最好不用扩展名去解压缩，而是用二进制头文件去判断
+
